@@ -1,0 +1,66 @@
+html {
+  font-size: 16px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  gap: 10px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(100 100 100);
+}
+.cell p {
+  position: relative;
+  top: 24px;
+  text-align: center;
+}
+
+/* changing the cells' background colors based on their value */
+
+.V2 {
+	background-color: #eee4da;
+}
+
+.V4 {
+	background-color: #ece0c8;
+}
+
+.V8 {
+	background-color: #f2b179;
+}
+
+.V16 {
+	background-color: #f59563;
+}
+
+.V32 {
+	background-color: #f57c5f;
+}
+
+.V64 {
+	background-color: #f5613d;
+}
+
+.V128 {
+	background-color: #edce71;
+}
+
+.V256 {
+	background-color: #edcc61;
+}
+
+.V512 {
+	background-color: #ecc850;
+}
+
+.V1024 {
+	background-color: #edc53f;
+}
+
+.V2048 {
+	background-color: #ecc400;
+}
