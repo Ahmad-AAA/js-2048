@@ -1,0 +1,1 @@
+A simple game of 2048 made with Javascript. Use WASD to move.
